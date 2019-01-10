@@ -1,0 +1,70 @@
+@font-face {
+  font-family: GothaProBol;
+  src: url(/layout_1/font/Gotham/GothaProBol.otf);
+}
+@font-face {
+  font-family: GothaProMed;
+  src: url(/layout_1/font/Gotham/GothaProMed.otf);
+}
+
+.navbar-container:after{
+	width: 10000px;
+	border-bottom-color: #fff;
+	border-bottom-width: 1px;
+	border-bottom-style: solid; 
+	content: " ";
+	display: block;
+	position: absolute;
+	left: -4000px;
+}
+.navbar-container .nav-item.active{
+	position: relative;
+}
+.navbar-container .nav-item.active a:after{
+	width: 100%;
+	border-bottom-color: #11749e;
+	border-bottom-width: 7px;
+	border-bottom-style: solid; 
+	content: " ";
+	display: block;
+	position: absolute;
+	margin-top: 29px;
+	left: 0px
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, 
+.navbar-light .navbar-nav .nav-link, 
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+	color: #fff;
+	font-size: 20px;
+}
+.navbar .social-link{
+	color: #fff;
+	font-size: 20px;
+}
+.navbar #navbarNav li{
+	padding: 0 10px;
+}
+
+header{
+	height: 800px;
+	background: url("/layout_1/image/bg_header.jpg");
+	background-size: cover;
+	background-position: center;
+}
+header h1{
+	margin-top: 290px;
+	color: #fff;
+	font-family: "GothaProBol";
+	font-size: 140px;
+	text-align: center;
+	text-transform: uppercase;
+}
+header h3{
+	color: #fff;
+	font-family: "GothaProMed";
+	font-size: 22px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 19px;
+	color: #11749e;
+}
