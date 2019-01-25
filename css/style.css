@@ -162,7 +162,7 @@ header .scroll_down a:after{
 	padding-top: 100px;
 	padding-bottom: 100px;
 	background: #222;
-	color: #fff;
+	color: #f3f3f3;
 	position: relative;
 }
 .section_2 .item-element h2{
@@ -173,6 +173,19 @@ header .scroll_down a:after{
 .section_2 .image{
 	position: absolute;
 	right: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background-size: cover;
+}
+
+.section_2.rev{
+	background: #f3f3f3;
+	color: #222;
+}
+.section_2.rev .image{
+	position: absolute;
+	left: 0;
 	top: 0;
 	width: 50%;
 	height: 100%;
