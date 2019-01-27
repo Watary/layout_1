@@ -191,3 +191,53 @@ header .scroll_down a:after{
 	height: 100%;
 	background-size: cover;
 }
+
+
+.section_3{
+	position: relative;
+	text-align: center;
+	font-style: "GothaProMed";
+}
+.section_3 .background_logo{
+	position: absolute;
+	color: #2223;
+	font-size: 160px;
+	left: calc(50% - 60px);
+	top: 25px;
+	font-style: "roboto";
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.section_3 h1{
+	text-align: center;
+	font-style: "GothaProMed";
+	text-transform: uppercase;
+	color: #222;
+	margin: 125px 0 50px 0;
+	font-size: 45px;
+}
+.section_3 .text{
+	font-style: "GothaProMed";
+	color: #222;
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+.section_3 .project{
+	margin-top: 50px;
+}
+.section_3 .project img{
+	margin-bottom: 30px;
+}
+.section_3 .project a{
+	color: #11749e;
+	font-style: "GothaProBol";
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.section_3 .project .description{
+	font-style: "GothaProMed";
+	color: #222;
+}
+.section_3 .project .item{
+	margin-bottom: 100px;
+}
