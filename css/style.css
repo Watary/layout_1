@@ -241,3 +241,13 @@ header .scroll_down a:after{
 .section_3 .project .item{
 	margin-bottom: 100px;
 }
+.section_4{
+	font-style: "GothaProMed";
+	background-color: #11749e;
+	color: #fff;
+	padding-top: 100px;
+	padding-bottom: 160px;
+}
+.section_4 i{
+	font-size: 80px; 
+}
